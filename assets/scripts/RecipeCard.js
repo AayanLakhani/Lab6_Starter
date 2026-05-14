@@ -124,7 +124,7 @@ class RecipeCard extends HTMLElement {
 		// A6. TODO - Select the <article> we added to the Shadow DOM in the constructor
 		let articleEl = this.shadowRoot.querySelector('article');
 		// A7. TODO - Set the contents of the <article> with the <article> template given in
-		article.innerHTML = `
+		articleEl.innerHTML = `
 		  <img src="${data.imgSrc}"
 			alt="${data.imgAlt}">
 		<p class="title">
